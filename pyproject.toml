@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "langchain-api-app"
+version = "0.1.0"
+description = "A simple Langchain API application"
+authors = ["xxxxxxx@gmail.com"]
+
+[tool.poetry.dependencies]
+langchain = "^0.0.166"
+google-api-python-client = "^2"
+python = "^3.11"
+fastapi = "^0.74.0"
+uvicorn = "^0.22"
+openai = "^0.27.6"
+tiktoken = "^0.4.0"
+pinecone_client = "^2.2.1"
+python-dotenv = "^1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
